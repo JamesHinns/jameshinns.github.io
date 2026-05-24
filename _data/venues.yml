@@ -1,0 +1,20 @@
+# Preprints:   neutral / background-adjacent
+# Journals:    mauve / purple
+# Conferences: peach / teal-green
+# Avoid red/yellow/maroon unless you need warning/status colours
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#6c7086" # preprint: overlay0 / muted background-adjacent
+
+"DSS":
+  url: https://www.sciencedirect.com/journal/decision-support-systems
+  color: "#cba6f7" # journal: mauve / purple
+
+"IJCCI":
+  url: https://ijcci.scitevents.org/
+  color: "#fab387" # conference: peach / orange
+
+"PRICAI":
+  url: https://www.pricai.org/
+  color: "#94e2d5" # conference: teal / green-ish

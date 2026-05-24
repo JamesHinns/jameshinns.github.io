@@ -1,0 +1,52 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+
+@use "sass:color";
+
+// Colors
+$red-color: #f38ba8 !default;
+$red-color-dark: #f38ba8 !default;
+$orange-color: #fab387 !default;
+$blue-color: #89b4fa !default;
+$blue-color-dark: #74c7ec !default;
+$cyan-color: #89dceb !default;
+$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+$green-color: #a6e3a1 !default;
+$green-color-lime: #a6e3a1 !default;
+$green-color-dark: #a6e3a1 !default;
+$green-color-light: #ddffdd !default;
+$green-color-bright: #94e2d5 !default;
+$purple-color: #cba6f7 !default;
+$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$pink-color: #f5c2e7 !default;
+$pink-color-light: #ffdddd !default;
+$yellow-color: #f9e2af !default;
+
+$grey-color: #9399b2 !default;
+$grey-color-light: color.adjust($grey-color, $lightness: 40%);
+$grey-color-dark: #1e1e2e;
+$grey-900: #313244;
+
+$white-color: #cdd6f4 !default;
+$black-color: #11111b !default;
+
+// Theme colors
+
+$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-dark: #313244 !default;
+
+// Font awesome location
+$fa-font-path: "../webfonts";
+
+// Back To Top button config
+$back-to-top-z-index: 10;
+$back-to-top-bottom: 30px;
+$back-to-top-right: 30px;
+$back-to-top-diameter: 40px;
+$back-to-top-height: $back-to-top-diameter;
+$back-to-top-width: $back-to-top-diameter;
+
+// Max width default
+$max-content-width: 930px !default;
