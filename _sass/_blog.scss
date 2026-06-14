@@ -164,4 +164,15 @@
       text-decoration: none;
     }
   }
+
+  a.scholar-link {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+    text-underline-offset: 0.15em;
+
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: underline;
+    }
+  }
 }

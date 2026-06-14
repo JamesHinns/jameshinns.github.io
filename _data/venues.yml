@@ -11,9 +11,14 @@
   url: https://www.sciencedirect.com/journal/decision-support-systems
   color: "#cba6f7" # journal: mauve / purple
 
+"CACM":
+  url: https://cacm.acm.org/
+  color: "#b4befe" # journal: lavender
+
 "DMKD":
   url: https://link.springer.com/journal/10618
   color: "#eba0ac" # journal: maroon
+
 "IJCCI":
   url: https://ijcci.scitevents.org/
   color: "#fab387" # conference: peach / orange
