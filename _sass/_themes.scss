@@ -42,6 +42,10 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-info-block: #1e66f5; /* Catppuccin Latte blue */
+  --global-info-block-bg: #e7edfb;
+  --global-info-block-text: #2a3a5c;
+  --global-info-block-title: #1e66f5;
 
   #light-toggle-system {
     display: inline-block;
@@ -112,6 +116,10 @@ html[data-theme="dark"] {
   --global-danger-block-bg: #313244;
   --global-danger-block-text: #cdd6f4;
   --global-danger-block-title: #f38ba8;
+  --global-info-block: #89b4fa; /* Catppuccin Mocha blue */
+  --global-info-block-bg: #313244; /* Mocha surface0 */
+  --global-info-block-text: #cdd6f4; /* Mocha text */
+  --global-info-block-title: #89b4fa;
 
   .only-light {
     display: none;

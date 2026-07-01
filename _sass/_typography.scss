@@ -43,6 +43,25 @@ table {
   }
 }
 
+/* Info callout. Overrides MDB's .note-info, whose near-white background leaves
+   the theme's light text unreadable on the dark Catppuccin Mocha theme. */
+.note-info {
+  background-color: var(--global-info-block-bg);
+  border-color: var(--global-info-block);
+  color: var(--global-info-block-text);
+
+  em,
+  li,
+  p,
+  strong {
+    color: var(--global-info-block-text);
+  }
+
+  a {
+    color: var(--global-info-block-title);
+  }
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);

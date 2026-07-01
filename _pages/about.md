@@ -15,6 +15,11 @@ announcements:
   enabled: true
   scrollable: false
   limit: 4
+
+latest_posts:
+  enabled: true
+  scrollable: false
+  limit: 1
 ---
 
 I am a final-year PhD candidate in Explainable AI at the University of Antwerp. I will soon join KU Leuven as a postdoc in Human-Centred XAI.
