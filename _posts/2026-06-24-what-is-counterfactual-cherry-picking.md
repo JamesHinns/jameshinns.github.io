@@ -7,7 +7,7 @@ description: ""
 ---
 
 <p style="border-left: 3px solid var(--global-theme-color); padding-left: 0.85rem; margin: 0 0 1.75rem; color: var(--global-text-color-light);">
-  This post accompanies our paper <em>On the Definition and Detection of Cherry-Picking in Counterfactual Explanations</em>, which will appear in <em>Data Mining and Knowledge Discovery</em> and be presented at <em>ECML PKDD 2026</em>. You can already read the <a href="https://arxiv.org/abs/2601.04977">pre-print</a>.
+  This post accompanies our paper <em>On the Definition and Detection of Cherry-Picking in Counterfactual Explanations</em>, published in <em>Data Mining and Knowledge Discovery</em> and to be presented at <em>ECML PKDD 2026</em>. You can read the <a href="https://rdcu.be/frsun">full text</a>.
 </p>
 
 A counterfactual explanation identifies a minimal change to an instance that would change the model’s prediction {% cite martens2014explaining --file blog-references %}.
@@ -61,7 +61,7 @@ Detection depends on what the auditor can observe.
 
 If an auditor is given a specification containing all its components, they can reconstruct the admissible explanation space implied by that specification, apply the disclosed ranking, and verify whether the returned explanation is top-ranked.
 
-The figure below illustrates this using one of our DiCE experiments {% cite mothilal2020explaining --file blog-references %}. In this case, the disclosed ranking rule selected the counterfactual with the lowest proximity score. We compared this with an alternative rule that ranked every explanation without a gender change above those with one, and used proximity only to break ties within each group. The blue points are the proximity-optimal explanations from the generated set, while the orange points are the explanations selected by the alternative rule. Where an orange point has a higher proximity score than the corresponding blue point, the selected explanation is not top-ranked under the disclosed rule and the cherry-picking would be detectable. This occurred for 4 of the 10 audited instances.
+The figure below illustrates this using one of our DiCE {% cite mothilal2020explaining --file blog-references %} experiments. In this case, the disclosed ranking rule selected the counterfactual with the lowest proximity score. We compared this with an alternative rule that ranked every explanation without a gender change above those with one, and used proximity only to break ties within each group. The blue points are the proximity-optimal explanations from the generated set, while the orange points are the explanations selected by the alternative rule. Where an orange point has a higher proximity score than the corresponding blue point, the selected explanation is not top-ranked under the disclosed rule and the cherry-picking would be detectable. This occurred for 4 of the 10 audited instances.
 
 <img src="/assets/img/blog/pcherry/optimal-vs-cherry-picked-proximity.svg" alt="Proximity of optimal and cherry-picked explanations." style="display: block; width: 100%; height: auto; margin: 1.5rem auto 0.5rem;">
 
