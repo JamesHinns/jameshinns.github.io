@@ -23,6 +23,10 @@
   url: https://ijcci.scitevents.org/
   color: "#fab387" # conference: peach / orange
 
+"XKDD":
+  url: https://xkdd2026.isti.cnr.it/
+  color: "#89dceb" # workshop: sky / cyan
+
 "PRICAI":
   url: https://www.pricai.org/
   color: "#94e2d5" # conference: teal / green-ish
