@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Human-centred interpretability researcher working on explainable and safer AI in the <a href="https://admantwerp.github.io/">Applied Data Mining Research Group</a>.
+subtitle: Postdoctoral researcher in human-centred interpretability in the <a href="https://augment2.cs.kuleuven.be/">Augment group</a> at KU Leuven.
 
 profile:
   align: right
@@ -22,6 +22,6 @@ latest_posts:
   limit: 1
 ---
 
-I am a final-year PhD candidate in Explainable AI at the University of Antwerp. I will soon join KU Leuven as a postdoc in Human-Centred XAI.
+I recently completed my PhD in Explainable AI with the <a href="https://admantwerp.github.io/">Applied Data Mining group</a> at the University of Antwerp.
 
-My work focuses on human-centred interpretability methods, explanation evaluation, and machine learning systems that are more understandable, trustworthy, and aligned with human needs.
+My research focuses on human-centred interpretability, explanation evaluation, and machine learning systems that are more understandable, trustworthy, and aligned with human needs.
